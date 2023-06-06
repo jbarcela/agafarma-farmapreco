@@ -1,3 +1,4 @@
+import Contact from "../../components/Contact";
 import Container from "../../components/Container";
 import Header from "../../components/Header";
 import Hero from "../../components/Hero";
@@ -8,7 +9,8 @@ export default function Home(){
         <Container>
             <Header/>
             <Hero />
-            <Stores />
+            <Stores/>
+            <Contact/>
         </Container>
     )
 }
