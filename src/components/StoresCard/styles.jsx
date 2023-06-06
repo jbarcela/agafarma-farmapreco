@@ -1,0 +1,94 @@
+import styled from "styled-components"
+
+export const ContainerCard = styled.div`
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 490px;
+    height: 354px;
+    background-color: #fff;
+    box-shadow: 0px 10px 29px rgba(68, 88, 144, 0.1);
+    border-radius: 10px;
+    /* transition-property: transform; */
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    &:hover {
+        transform: translateY(-5px);
+    }
+` 
+export const ButtonMap = styled.a`
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    background-color: #01649C;
+    margin-top: 10px;
+    margin-right: 10px;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 12px;
+    color: #CED4DA;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-size: 12px;
+
+`
+
+export const ContainerImage = styled.img`
+    width: 100%;
+    height: 228px;
+    border: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+`
+export const ContainerCardInfo = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #fff;   
+`
+
+export const TitleCard = styled.h1`
+    color: #0165CF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    margin-top: 14px;
+`
+
+export const ContainerContactCard = styled.div`
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width:470px;
+    align-items: start;
+    margin-top: 10px;
+    gap: 10px;
+`
+
+export const AdressCard = styled.a`
+    color: #0165CF;
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    cursor: pointer;
+`
+
+export const LinkImageWhatsIcon = styled.a`
+    text-decoration: none;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+`
+export const ImageWhatsIcon = styled.img`
+    width: 40px;
+    height: 40px;
+`
