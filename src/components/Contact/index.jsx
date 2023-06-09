@@ -3,7 +3,7 @@ import InputMask from 'react-input-mask';
 
 export default function Contact({ children }) {
     return (
-        <ContainerContact>
+        <ContainerContact id="contact">
             <TitleContact>Entre em contato</TitleContact>
             <FormContact action="https://formsubmit.co/dionatannsilvaa@gmail.com" method="POST">
                 <InputForm required type="text" name="Nome" placeholder=" Seu nome" />

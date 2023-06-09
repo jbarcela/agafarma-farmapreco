@@ -1,5 +1,12 @@
 import styled from "styled-components"
 
+export const ContainerHeader = styled.div`
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+`
+
 export const HeaderPrimaryStyled = styled.div`
     display: flex;
     justify-content: space-between;
@@ -50,4 +57,5 @@ export const LiStyled = styled.li`
 `
 export const Linkstyled = styled.a`
     cursor: pointer;
+    color: #004289;
 `

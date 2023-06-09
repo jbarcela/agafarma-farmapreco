@@ -2,7 +2,7 @@ import { ButtonHeroStyled, ContainerButtons, ContainerHero, HeroImageStiled } fr
 
 export default function Hero({children}){
     return(
-        <ContainerHero>
+        <ContainerHero id="hero">
             <HeroImageStiled src="images/banner.png" alt="" />
             <ContainerButtons>
                 <ButtonHeroStyled><img src="images/icons/whatsapp-btn.png" alt="" /> Parada 47</ButtonHeroStyled>

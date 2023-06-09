@@ -1,6 +1,6 @@
 import About from "../screens/About"
 
-export default function RegisterPage(){
+export default function AboutPage(){
     return(
             <About/>
     )

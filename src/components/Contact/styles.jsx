@@ -57,6 +57,7 @@ export const ButtonForm = styled.button`
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
+    cursor: pointer;
 `
 export const TextAreaStyled = styled.textarea`
     height: 110px;
