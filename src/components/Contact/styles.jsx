@@ -18,6 +18,7 @@ export const TitleContact = styled.h1`
 `
 
 export const FormContact = styled.form`
+    font-family: 'Open Sans';
     margin-top: 70px;
     width: 100%;
     display: flex;
@@ -52,7 +53,7 @@ export const ButtonForm = styled.button`
     background: #01649C;
     border: none;
     border-radius: 12px;
-    color: #CED4DA;
+    color: #FFF;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;

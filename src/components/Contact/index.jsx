@@ -26,7 +26,7 @@ export default function Contact({ children }) {
               '0': /[0-9]/,
             }}
             inputRef={(el) => el && el.addEventListener('focus', (e) => e.target.select())}
-            style={{ width: '100%' }}
+            style={{ width: '100%', borderRadius: '6px', border: 'solid 1px #CED4DA', paddingLeft:'6px' }}
             placeholder="(99) 9 9999-9999"
           />
           <InputForm required name="E-mail" style={{ width: '100%' }} placeholder="Seu E-mail" />
