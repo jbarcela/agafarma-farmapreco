@@ -58,4 +58,7 @@ export const LiStyled = styled.li`
 export const Linkstyled = styled.a`
     cursor: pointer;
     color: #004289;
+    &:hover{
+        opacity: 0.8;
+    }
 `

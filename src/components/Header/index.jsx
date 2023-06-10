@@ -12,7 +12,6 @@ export default function Header({children}){
   }, [router.asPath]);
     return(
         <ContainerHeader style={{"position":"sticky","top":"0","zIndex":"9999"}}>
-          <h2>{urlAtual}</h2>
             <HeaderPrimaryStyled>
                 <a href="mailto:atendimento@agafarma.com.br" target="_blank" style={{"marginLeft": "18px"}}>atendimento@agafarmavivamed.com.br</a>
                 <CointanerLinks>
@@ -22,7 +21,16 @@ export default function Header({children}){
                 </CointanerLinks>
             </HeaderPrimaryStyled>
             <HeaderSecondary>
-                <ImageStyled src="images/logo.png"/>
+                {urlAtual =="/about/" ? (
+                  <Link href="/">
+                    <ImageStyled style={{"cursor":"pointer"}} src="images/logo.png"/>
+                  </Link>
+
+                ) : (
+                  <Link href="/">
+                    <ImageStyled style={{"cursor":"pointer"}} src="images/logo.png"/>
+                  </Link>
+                )}
                 <nav>
                     {urlAtual == "/about/" ? (
                       <UlStyled>
@@ -32,10 +40,15 @@ export default function Header({children}){
                         </Link>
                       </LiStyled>
                       <LiStyled>
-                        <Linkstyled href="/#lojas">LOJAS</Linkstyled>
+                        <Link href="/#lojas">
+                          <Linkstyled>LOJAS</Linkstyled>
+                        </Link>
+                        
                       </LiStyled>
                       <LiStyled>
-                        <Linkstyled href="/#contact">CONTATO</Linkstyled>
+                        <Link href="/#contact">
+                          <Linkstyled>CONTATO</Linkstyled>
+                        </Link>
                       </LiStyled>
                       <LiStyled>
                         <Link href="/about">

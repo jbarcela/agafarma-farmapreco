@@ -1426,6 +1426,11 @@ has@^1.0.3:
   dependencies:
     function-bind "^1.1.1"
 
+imask@^6.6.3:
+  version "6.6.3"
+  resolved "https://registry.yarnpkg.com/imask/-/imask-6.6.3.tgz#f9619cea770b97b5ef616acb036d27cf4a1b33d8"
+  integrity sha512-a9MTDhm+ET4G2IRcdUGuVTXHS05WsRNPGM5CeNJnXiXuoi4zv7g0/UDFLlRF4lBBeb8EWds4C4JVwhI0nuAIug==
+
 inflight@^1.0.4:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/inflight/-/inflight-1.0.6.tgz#49bd6331d7d02d0c09bc910a1075ba8165b56df9"
@@ -1647,6 +1652,14 @@ react-dom@^17.0.2:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
     scheduler "^0.20.2"
+
+react-imask@^6.6.3:
+  version "6.6.3"
+  resolved "https://registry.yarnpkg.com/react-imask/-/react-imask-6.6.3.tgz#febb3fb62e098d5cb51537e591bb2b6f7a7676ff"
+  integrity sha512-ZjqKXqBtc1LlFQWEj/SNuk4rQWXDdzLnDqCfNMnqdHHMqSvD1J+JuQZTuWgCCr5cLJxaXshDHW5AmhClk367Gw==
+  dependencies:
+    imask "^6.6.3"
+    prop-types "^15.8.1"
 
 react-is@^16.13.1:
   version "16.13.1"
