@@ -5,8 +5,39 @@ import Header from "../../components/Header";
 export default function About(){
     return(
         <Container>
-            <Header/>    
-            <Footer/>
+            <p>teste</p>
+            <p>teste</p>
+            <p>teste</p>
+            <p>teste</p>
+            <p>teste</p>
+            <p>teste</p>
+            <p>teste</p>
+            <p>teste</p>
+            <p>teste</p>
+            <p>teste</p>
+            <p>teste</p>
+            <p>teste</p>
+            <p>teste</p>
+            <p>teste</p>
+            <p>teste</p>
+            <p>teste</p>
+            <p>teste</p>
+            <p>teste</p>
+            <p>teste</p>
+            <p>teste</p>
+            <p>teste</p>
+            <p>teste</p>
+            <p>teste</p>
+            <p>teste</p>
+            <p>teste</p>
+            <p>teste</p>
+            <p>teste</p>
+            <p>teste</p>
+            <p>teste</p>
+            <p>teste</p>
+            <p>teste</p>
+            <p>teste</p>
+            <p>teste</p>
         </Container>
     )
 }

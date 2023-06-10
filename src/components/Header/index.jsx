@@ -1,10 +1,18 @@
-import LinkNext from "next/link";
-import { Link, animateScroll as scroll } from "react-scroll";
+import Link from "next/link";
+import { useEffect, useState } from 'react';
+import { useRouter } from 'next/router';
 import { CointanerLinks, HeaderPrimaryStyled, HeaderSecondary, ImageStyled, LiStyled, SeparatorStyled, UlStyled, Linkstyled, ContainerHeader } from "./styles";
 
 export default function Header({children}){
+  const router = useRouter();
+  const [urlAtual, setUrlAtual] = useState('');
+
+  useEffect(() => {
+    setUrlAtual(router.asPath);
+  }, [router.asPath]);
     return(
         <ContainerHeader style={{"position":"sticky","top":"0","zIndex":"9999"}}>
+          <h2>{urlAtual}</h2>
             <HeaderPrimaryStyled>
                 <a href="mailto:atendimento@agafarma.com.br" target="_blank" style={{"marginLeft": "18px"}}>atendimento@agafarmavivamed.com.br</a>
                 <CointanerLinks>
@@ -14,57 +22,77 @@ export default function Header({children}){
                 </CointanerLinks>
             </HeaderPrimaryStyled>
             <HeaderSecondary>
-                <Link 
-                     activeClass="active"
-                     to="hero"
-                     spy={true}
-                     smooth={true}
-                     offset={-70}
-                     duration={500}
-                >
-                    <a style={{"cursor":"pointer"}}><ImageStyled src="images/logo.png"/></a> 
-                </Link>
+                <ImageStyled src="images/logo.png"/>
                 <nav>
-                    <UlStyled>
-                        <LiStyled >
-                            <LinkNext  href="/">
-                                <Linkstyled>INÍCIO</Linkstyled>
-                            </LinkNext>
-                        </LiStyled>
-                        <LiStyled>
-                            <LinkNext href="/about">
-                                <Linkstyled >SOBRE</Linkstyled>
-                            </LinkNext>
-                        </LiStyled>
-                        <LiStyled>
-                            <Link 
-                                activeClass="active"
-                                to="lojas"
-                                spy={true}
-                                smooth={true}
-                                offset={-70}
-                                duration={500}
-
-                            >
-                                <Linkstyled >LOJAS</Linkstyled>
-                            </Link>
-                        </LiStyled>
-                        <LiStyled>
-                            <Link
-                                 activeClass="active"
-                                 to="contact"
-                                 spy={true}
-                                 smooth={true}
-                                 offset={-70}
-                                 duration={500}
-                            >
-                                <Linkstyled >CONTATO</Linkstyled>
-                            </Link>
-                        </LiStyled>
-                        <LiStyled><Linkstyled href=""><img src="images/icons/facebook.png" alt="" /> </Linkstyled></LiStyled>
-                        <LiStyled><Linkstyled href=""><img src="images/icons/insta.png" alt="" /></Linkstyled></LiStyled>
-                        <LiStyled><Linkstyled href=""><img src="images/icons/whats.png" alt="" /></Linkstyled></LiStyled>
+                    {urlAtual == "/about/" ? (
+                      <UlStyled>
+                      <LiStyled>
+                        <Link href="/">
+                          <Linkstyled>INÍCIO</Linkstyled>
+                        </Link>
+                      </LiStyled>
+                      <LiStyled>
+                        <Linkstyled href="/#lojas">LOJAS</Linkstyled>
+                      </LiStyled>
+                      <LiStyled>
+                        <Linkstyled href="/#contact">CONTATO</Linkstyled>
+                      </LiStyled>
+                      <LiStyled>
+                        <Link href="/about">
+                          <Linkstyled>SOBRE</Linkstyled>
+                        </Link>
+                      </LiStyled>
+                      <LiStyled>
+                        <Linkstyled href="">
+                          <img src="images/icons/facebook.png" alt="" />{' '}
+                        </Linkstyled>
+                      </LiStyled>
+                      <LiStyled>
+                        <Linkstyled href="">
+                          <img src="images/icons/insta.png" alt="" />
+                        </Linkstyled>
+                      </LiStyled>
+                      <LiStyled>
+                        <Linkstyled href="">
+                          <img src="images/icons/whats.png" alt="" />
+                        </Linkstyled>
+                      </LiStyled>
                     </UlStyled>
+                    ) : (
+                      <UlStyled>
+                        <LiStyled>
+                          <Link href="/">
+                            <Linkstyled>INÍCIO</Linkstyled>
+                          </Link>
+                        </LiStyled>
+                        <LiStyled>
+                          <Linkstyled href="#lojas">LOJAS</Linkstyled>
+                        </LiStyled>
+                        <LiStyled>
+                          <Linkstyled href="#contact">CONTATO</Linkstyled>
+                        </LiStyled>
+                        <LiStyled>
+                          <Link href="/about">
+                            <Linkstyled>SOBRE</Linkstyled>
+                          </Link>
+                        </LiStyled>
+                        <LiStyled>
+                          <Linkstyled href="">
+                            <img src="images/icons/facebook.png" alt="" />{' '}
+                          </Linkstyled>
+                        </LiStyled>
+                        <LiStyled>
+                          <Linkstyled href="">
+                            <img src="images/icons/insta.png" alt="" />
+                          </Linkstyled>
+                        </LiStyled>
+                        <LiStyled>
+                          <Linkstyled href="">
+                            <img src="images/icons/whats.png" alt="" />
+                          </Linkstyled>
+                        </LiStyled>
+                      </UlStyled>
+                    )}
                 </nav>
             </HeaderSecondary>
             

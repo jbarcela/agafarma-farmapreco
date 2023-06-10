@@ -1,5 +1,5 @@
 import { ButtonForm, ContainerContact, ContainerStyled, FormContact, InputForm, SelectForm, TitleContact, TextAreaStyled } from "./styles";
-import InputMask from 'react-input-mask';
+
 
 export default function Contact({ children }) {
     return (
@@ -8,13 +8,7 @@ export default function Contact({ children }) {
             <FormContact action="https://formsubmit.co/dionatannsilvaa@gmail.com" method="POST">
                 <InputForm required type="text" name="Nome" placeholder=" Seu nome" />
                 <div style={{ "display": "flex", "widows": "100%", "justifyContent": "space-between", "gap": "10px" }}>
-                    <InputMask
-                        required
-                        mask="(99) 9 9999-9999"
-                        maskChar=""
-                    >
-                        {(inputProps) => <InputForm required name="Numero" type="text" style={{ "width": "100%" }} placeholder=" (99) 9 9999-9999" {...inputProps} />}
-                    </InputMask>
+                    <InputForm required name="Numero" type="text" style={{ "width": "100%" }} placeholder=" (99) 9 9999-9999" />
                     <InputForm required name="E-mail" style={{ "width": "100%" }} placeholder=" Seu E-mail" />
                 </div>
                 <SelectForm style={{"paddingLeft":"3px"}} name="Assunto" defaultValue="Selecione">

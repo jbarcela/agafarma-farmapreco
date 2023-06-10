@@ -8,11 +8,9 @@ import Stores from "../../components/Stores";
 export default function Home(){
     return(
         <Container>
-            <Header/>
             <Hero />
             <Stores/>
             <Contact/>
-            <Footer/>
         </Container>
     )
 }
