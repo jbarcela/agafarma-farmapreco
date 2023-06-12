@@ -28,12 +28,16 @@ export const EmailHeader = styled.a`
 export const CointanerLinks = styled.div`
     display: flex;
     gap: 18px;
-    margin-left: 12px;
+    margin-right: 18px;
+    @media (max-width: 668px) {
+        margin-left: 12px;
+    }
 `
 export const SeparatorStyled = styled.div`
     width: 1px;
     height: 10px;
     background-color: #fff;
+    
 `
 
 export const HeaderSecondary = styled.div`

@@ -1,13 +1,14 @@
 import styled from "styled-components"
+import Image from "next/image"
 
 export const ContainerHero = styled.div`
-    width: 100%;
+    width: 100vw;
     max-width: 100%;
     height: auto;
     position: relative;
 `
 
-export const HeroImageStiled = styled.img`
+export const HeroImageStiled = styled(Image)`
     width: 100%;
     height: auto;
 `
@@ -64,8 +65,10 @@ export const ButtonHeroStyled = styled.a`
 `
 export const ImageButton = styled.img`
     width: 30px;
+    height: auto;
     @media (max-width: 980px) {
         width: 20px;
+        height: auto;
     }
     
 `

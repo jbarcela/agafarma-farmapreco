@@ -101,6 +101,9 @@ export const TextFooter = styled.p`
     color: #EEEEEE;    
     padding-inline: 30px;
     line-height: 20px;
+    @media (max-width: 668px) {
+        text-align: center;
+    }
 `
 
 export const ContainerMobile = styled.div`
