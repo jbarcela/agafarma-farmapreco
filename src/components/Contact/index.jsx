@@ -1,5 +1,5 @@
 import React from 'react';
-import { IMaskInput } from 'react-imask';
+import IMaskInput  from 'react-imask';
 import {
   ButtonForm,
   ContainerContact,
@@ -8,16 +8,19 @@ import {
   SelectForm,
   TitleContact,
   TextAreaStyled,
+  ContainerEmailname,
+  StyledIMaskInput
 } from './styles';
 
 export default function Contact({ children }) {
+  
   return (
     <ContainerContact id="contact">
       <TitleContact>Entre em contato</TitleContact>
       <FormContact action="https://formsubmit.co/dionatannsilvaa@gmail.com" method="POST">
-        <InputForm required type="text" name="Nome" placeholder="Seu nome" />
-        <div style={{ display: 'flex', widows: '100%', justifyContent: 'space-between', gap: '10px' }}>
-          <IMaskInput
+        <InputForm style={{width:"auto"}} required type="text" name="Nome" placeholder="Seu nome" />
+        <ContainerEmailname>
+          <StyledIMaskInput
             required
             name="Numero"
             type="tel"
@@ -26,11 +29,10 @@ export default function Contact({ children }) {
               '0': /[0-9]/,
             }}
             inputRef={(el) => el && el.addEventListener('focus', (e) => e.target.select())}
-            style={{ width: '100%', borderRadius: '6px', border: 'solid 1px #CED4DA', paddingLeft:'6px' }}
             placeholder="(99) 9 9999-9999"
           />
-          <InputForm required name="E-mail" style={{ width: '100%' }} placeholder="Seu E-mail" />
-        </div>
+          <InputForm required name="E-mail"  placeholder="Seu E-mail" />
+        </ContainerEmailname>
         <SelectForm style={{ paddingLeft: '3px' }} name="Assunto" defaultValue="Selecione">
           <option value="Selecione" disabled hidden>Selecione um assunto</option>
           <option value="compras">Compras</option>

@@ -17,6 +17,12 @@ export const ContainerButtons = styled.div`
     gap: 30px;
     bottom: 6%;
     right: 6%;
+    @media (max-width: 980px) {
+        gap: 18px;
+    }
+    @media (max-width: 768px) {
+        gap: 10px;
+    }
 `
 
 export const ButtonHeroStyled = styled.a`
@@ -34,4 +40,32 @@ export const ButtonHeroStyled = styled.a`
     font-size: 18px;
     font-weight: bold;
     color: #000;
+    @media (max-width: 1520px) {
+        width: 140px;
+        height: 60px;
+        font-size: 16px;
+    }
+    @media (max-width: 1180px) {
+        height: 50px;
+    }
+    @media (max-width: 980px) {
+        height: 40px;
+        width: 120px;
+    }
+    @media (max-width: 768px) {
+        width: 105px;
+        font-size: 14px;
+        gap: 5px;
+        height: 35px;
+    }
+    @media (max-width: 668px) {
+        display: none;
+    }
+`
+export const ImageButton = styled.img`
+    width: 30px;
+    @media (max-width: 980px) {
+        width: 20px;
+    }
+    
 `

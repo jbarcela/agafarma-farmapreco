@@ -1,4 +1,4 @@
-import { AvaliationLink, ContainerContacts, ContainerFooter, ContainerFooterSecondary, TextFooter, Textinfo, WrapperFooter, WrapperFooterSecondary, WrapperRow } from "./styles";
+import { AvaliationLink,LogoFooter, ContainerContacts,ContainerIcons, ContainerFooter, ContainerFooterSecondary, TextFooter, Textinfo, WrapperFooter, WrapperFooterSecondary, WrapperRow, ContainerMobile } from "./styles";
 
 
 export default function Footer({children}){
@@ -7,13 +7,13 @@ export default function Footer({children}){
             <ContainerFooter>
                     <WrapperFooter>
                         <WrapperRow>
-                            <img src="images/LogoFooter.png" alt="" />
+                            <LogoFooter src="images/LogoFooter.png" alt="" />
                             <AvaliationLink>NOS AVALIE AQUI!</AvaliationLink>
-                            <div style={{"display":"flex","gap":"30px"}}>
+                            <ContainerIcons >
                                 <a href=""><img src="images/icons/facebook.png" alt="" /></a>
                                 <a href=""><img src="images/icons/insta.png" alt="" /></a>
                                 <a href=""><img src="images/icons/whats.png" alt="" /></a>                          
-                            </div>
+                            </ContainerIcons>
                         </WrapperRow>
                         <ContainerContacts>
                             <span style={{ "color": "#444444", "fontSize": "14px", "fontFamily": "Open Sans" }}>Parada 47: <a href="tel:5136581492"  style={{ "color": "#0165CF" }} >(51) 3658-1492</a></span>
@@ -21,6 +21,14 @@ export default function Footer({children}){
                             <span style={{ "color": "#444444", "fontSize": "14px", "fontFamily": "Open Sans" }}>Americana: <a href="tel:5108001150120" style={{ "color": "#0165CF" }}>(51) 0800 115 0120</a></span>
                         </ContainerContacts>
                         <Textinfo>Horário de funcionamento: 07:30 às 22:00</Textinfo>
+                        <ContainerMobile>
+                            <AvaliationLink style={{display:'flex'}}>NOS AVALIE AQUI!</AvaliationLink>
+                            <ContainerIcons style={{display:'flex'}} >
+                                <a href=""><img src="images/icons/facebook.png" alt="" /></a>
+                                <a href=""><img src="images/icons/insta.png" alt="" /></a>
+                                <a href=""><img src="images/icons/whats.png" alt="" /></a>                          
+                            </ContainerIcons>
+                        </ContainerMobile>
                     </WrapperFooter>
             </ContainerFooter>
             <ContainerFooterSecondary>

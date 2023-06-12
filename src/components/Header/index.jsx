@@ -1,11 +1,12 @@
 import Link from "next/link";
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
-import { CointanerLinks, HeaderPrimaryStyled, HeaderSecondary, ImageStyled, LiStyled, SeparatorStyled, UlStyled, Linkstyled, ContainerHeader } from "./styles";
+import { CointanerLinks,EmailHeader, HeaderPrimaryStyled, HeaderSecondary, ImageStyled, LiStyled, SeparatorStyled, UlStyled, Linkstyled, ContainerHeader } from "./styles";
 
 export default function Header({children}){
   const router = useRouter();
   const [urlAtual, setUrlAtual] = useState('');
+  
 
   useEffect(() => {
     setUrlAtual(router.asPath);
@@ -13,7 +14,7 @@ export default function Header({children}){
     return(
         <ContainerHeader style={{"position":"sticky","top":"0","zIndex":"9999"}}>
             <HeaderPrimaryStyled>
-                <a href="mailto:atendimento@agafarma.com.br" target="_blank" style={{"marginLeft": "18px"}}>atendimento@agafarmavivamed.com.br</a>
+                <EmailHeader href="mailto:atendimento@agafarma.com.br" target="_blank" >atendimento@agafarmavivamed.com.br</EmailHeader>
                 <CointanerLinks>
                     <a href="https://www.agafarma.com.br/Site/Encarte" target="_blank">Encarte Online</a>
                         <SeparatorStyled/>

@@ -21,6 +21,10 @@ export const ParagraphStyled = styled.p`
     font-weight: 400;
     font-size: 15px;
     margin-top: 42px;
+    @media (max-width: 668px) {
+        text-align: center;
+        padding-inline: 15px;
+    }
 `
 
 export const ContainerStoresInfo = styled.div`
@@ -29,4 +33,7 @@ export const ContainerStoresInfo = styled.div`
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 30px;    
+    @media (max-width: 668px) {
+        grid-template-columns: repeat(1, 1fr);
+    }
 `

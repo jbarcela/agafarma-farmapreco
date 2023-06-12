@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import { IMaskInput } from "react-imask"
 
 export const ContainerContact = styled.div`
     margin-inline: auto;
@@ -6,6 +7,15 @@ export const ContainerContact = styled.div`
     flex-direction: column;
     align-items: center;
     width: 920px;
+    @media (max-width: 980px) {
+        width: 740px;
+    }
+    @media (max-width: 768px) {
+        width: 635px;
+    }
+    @media (max-width: 668px) {
+        width: 350px;
+    }
     
 `
 export const TitleContact = styled.h1`
@@ -31,9 +41,38 @@ export const InputForm = styled.input`
     border-radius: 6px;
     height: 38px;
     padding-left: 7px;
+    width: 100%;
     &::placeholder {
     color: black;
   }
+    @media (max-width: 668px) {
+        width: auto;
+    }
+
+`
+export const StyledIMaskInput = styled(IMaskInput)`
+    border: none;
+    border: solid 1px #CED4DA;
+    border-radius: 6px;
+    height: 38px;
+    padding-left: 7px;
+    width: 100%;
+    &::placeholder {
+    color: black;
+  }
+  @media (max-width: 668px) {
+        width: auto;
+    }
+`
+export const ContainerEmailname = styled.div`
+    display: flex;
+    justify-content: 'space-between';
+    gap: 10px;
+    width: 100%;
+    @media (max-width: 668px) {
+        flex-direction: column;
+
+    }
 `
 export const SelectForm = styled.select`
     width: 100%;

@@ -15,6 +15,19 @@ export const ContainerCard = styled.div`
     &:hover {
         transform: translateY(-5px);
     }
+    @media (max-width: 1180px) {
+        width: 400px;
+    }
+    @media (max-width: 860px) {
+        width: 340px;
+        height: 370px;
+    }
+    @media (max-width: 768px) {
+        width: 300px;
+    }
+    @media (max-width: 668px) {
+        width: 350px;
+    }
 ` 
 export const ButtonMap = styled.a`
     position: absolute;
@@ -69,6 +82,18 @@ export const ContainerContactCard = styled.div`
     align-items: start;
     margin-top: 10px;
     gap: 10px;
+    @media (max-width: 1180px) {
+        width: 380px;
+    }
+    @media (max-width: 860px) {
+        width: 320px;
+    }
+    @media (max-width: 768px) {
+        width: 280px;
+    }
+    @media (max-width: 668px) {
+        width: 330px;
+    }
 `
 
 export const AdressCard = styled.a`
@@ -79,6 +104,7 @@ export const AdressCard = styled.a`
     font-weight: 400;
     font-size: 14px;
     cursor: pointer;
+    line-height: 20px;
 `
 
 export const LinkImageWhatsIcon = styled.a`
@@ -87,8 +113,13 @@ export const LinkImageWhatsIcon = styled.a`
     right: 0;
     bottom: 0;
     cursor: pointer;
+    
 `
 export const ImageWhatsIcon = styled.img`
     width: 40px;
     height: 40px;
+    @media (max-width: 1180px) {
+        width: 30px;
+        height: auto;
+    }
 `
