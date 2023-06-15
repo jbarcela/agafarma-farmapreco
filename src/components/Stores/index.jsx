@@ -4,7 +4,7 @@ import { ContainerStores, ContainerStoresInfo, ParagraphStyled, TitleStyled } fr
 
 export default function Stores({children}){
     return(
-        <ContainerStores id="lojas">
+        <ContainerStores id="stores">
             <TitleStyled>Nossas lojas</TitleStyled>
             <ParagraphStyled>Selecione abaixo uma de nossas lojas em Charqueadas e São Jerônimo</ParagraphStyled>
             <ContainerStoresInfo>

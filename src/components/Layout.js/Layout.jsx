@@ -1,5 +1,5 @@
 import Footer from "../Footer";
-import Header from "../Header";
+import Header from "../Header/index.jsx";
 
 export default function Layout({children}){
     return(
