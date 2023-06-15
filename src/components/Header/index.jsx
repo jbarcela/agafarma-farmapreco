@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
 import { CointanerLinks,EmailHeader, HeaderPrimaryStyled, HeaderSecondary, ImageStyled, LiStyled, SeparatorStyled, UlStyled, Linkstyled, ContainerHeader } from "./styles";
 
-export default function Header({children}){
+export default function Header(){
   // const router = useRouter();
   // const [urlAtual, setUrlAtual] = useState('');
   
@@ -12,7 +12,7 @@ export default function Header({children}){
   //   setUrlAtual(router.asPath);
   // }, [router.asPath]);
     return(
-        <ContainerHeader style={{"position":"sticky","top":"0","zIndex":"9999"}}>
+        <ContainerHeader >
             <HeaderPrimaryStyled>
                 <EmailHeader href="mailto:atendimento@agafarma.com.br" target="_blank" >atendimento@agafarmavivamed.com.br</EmailHeader>
                 <CointanerLinks>
