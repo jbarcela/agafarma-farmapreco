@@ -2,14 +2,16 @@ import { useState } from 'react';
 import styles from './styles.module.css';
 
 export default function Header() {
-    const [isSobreClicked, setIsSobreClicked] = useState(false);
+    const [isSobreClicked, setIsSobreClicked] = useState(true);
 
     const handleSobreClick = () => {
-        setIsSobreClicked(true);
+        setIsSobreClicked(true);        
+        console.log(isSobreClicked)
     };
 
     const handleNavItemClick = () => {
         setIsSobreClicked(false);
+        console.log(isSobreClicked)
     };
 
     return (
@@ -29,10 +31,10 @@ export default function Header() {
                 </a>
                 <nav>
                     <ul className={styles.navUl}>
-                        <li className={styles.navUlLi}><a href="#hero" className={styles.link} onClick={handleNavItemClick}>INICIO</a></li>
-                        <li className={styles.navUlLi}><a href="#stores" className={styles.link} onClick={handleNavItemClick}>LOJAS</a></li>
-                        <li className={styles.navUlLi}><a href="#contact" className={styles.link} onClick={handleNavItemClick}>CONTATO</a></li>
-                        <li className={styles.navUlLi}><a href="/about" className={styles.link} onClick={handleSobreClick}>SOBRE</a></li>
+                        <li className={styles.navUlLi}><a href={isSobreClicked ? '/#hero' : '/#hero'} className={styles.link} onClick={handleNavItemClick}>INICIO</a></li>
+                        <li className={styles.navUlLi}><a href={isSobreClicked ? '/#stores' : '/#stores'} className={styles.link} onClick={handleNavItemClick}>LOJAS</a></li>
+                        <li className={styles.navUlLi}><a href={isSobreClicked ? '/#contact' : '/#contact'} className={styles.link} onClick={handleNavItemClick}>CONTATO</a></li>
+                        <li className={styles.navUlLi}><a href={isSobreClicked ? '/about' : '/about'} className={styles.link} onClick={handleSobreClick}>SOBRE</a></li>
                         <li className={styles.navUlLi}><a href="" className={styles.link}><img src="/images/icons/facebook.png" alt="" /></a></li>
                         <li className={styles.navUlLi}><a href="" className={styles.link}><img src="/images/icons/insta.png" alt="" /></a></li>
                         <li className={styles.navUlLi}><a href="" className={styles.link}><img src="/images/icons/whats.png" alt="" /></a></li>
