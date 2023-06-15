@@ -1,4 +1,4 @@
-import Link from "next/link";
+// import Link from "next/link";
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
 import { CointanerLinks,EmailHeader, HeaderPrimaryStyled, HeaderSecondary, ImageStyled, LiStyled, SeparatorStyled, UlStyled, Linkstyled, ContainerHeader } from "./styles";
@@ -116,9 +116,7 @@ export default function Header(){
                           <Linkstyled href="#contact">CONTATO</Linkstyled>
                         </LiStyled>
                         <LiStyled>
-                          <Link href="/about">
-                            <Linkstyled>SOBRE</Linkstyled>
-                          </Link>
+                          <Linkstyled href="/about">SOBRE</Linkstyled>
                         </LiStyled>
                         <LiStyled>
                           <Linkstyled href="">
