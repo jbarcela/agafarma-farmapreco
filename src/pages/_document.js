@@ -30,7 +30,7 @@ export default class MyDocument extends Document {
 
   render() {
     return (
-      <Html>
+      <Html style={{scrollBehavior:'smooth'}}>
         <Head>
         <meta></meta>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
