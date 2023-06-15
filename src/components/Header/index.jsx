@@ -5,13 +5,11 @@ export default function Header() {
     const [isSobreClicked, setIsSobreClicked] = useState(true);
 
     const handleSobreClick = () => {
-        setIsSobreClicked(true);        
-        console.log(isSobreClicked)
+        setIsSobreClicked(true);       
     };
 
     const handleNavItemClick = () => {
         setIsSobreClicked(false);
-        console.log(isSobreClicked)
     };
 
     return (
