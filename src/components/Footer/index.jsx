@@ -7,12 +7,12 @@ export default function Footer({children}){
             <ContainerFooter>
                     <WrapperFooter>
                         <WrapperRow>
-                            <LogoFooter src="/images/LogoFooter.png" alt="" />
-                            <AvaliationLink>NOS AVALIE AQUI!</AvaliationLink>
+                            <LogoFooter src="/images/LogoFooter.png" alt="Logo Agafarma" />
+                            <AvaliationLink title="Click aqui e nos avalie">NOS AVALIE AQUI!</AvaliationLink>
                             <ContainerIcons >
-                                <a href=""><img src="/images/icons/facebook.png" alt="" /></a>
-                                <a href=""><img src="/images/icons/insta.png" alt="" /></a>
-                                <a href=""><img src="/images/icons/whats.png" alt="" /></a>                          
+                                <a href="" title="click aqui e entre na nossa pagina do facebook"><img src="/images/icons/facebook.png" alt="Icone do facebook" /></a>
+                                <a href="" title="click aqui e entre na nossa pagina do Instagram"><img src="/images/icons/insta.png" alt="Icone do instagran" /></a>
+                                <a href="" title="click aqui e entre no whatsapp"><img src="/images/icons/whats.png" alt="incone do whatsapp" /></a>                          
                             </ContainerIcons>
                         </WrapperRow>
                         <ContainerContacts>
@@ -24,9 +24,9 @@ export default function Footer({children}){
                         <ContainerMobile>
                             <AvaliationLink style={{display:'flex'}}>NOS AVALIE AQUI!</AvaliationLink>
                             <ContainerIcons style={{display:'flex'}} >
-                                <a href=""><img src="/images/icons/facebook.png" alt="" /></a>
-                                <a href=""><img src="/images/icons/insta.png" alt="" /></a>
-                                <a href=""><img src="/images/icons/whats.png" alt="" /></a>                          
+                                <a href="" title="click aqui e entre na nossa pagina do facebook"><img src="/images/icons/facebook.png" alt="Icone do facebook" /></a>
+                                <a href="" title="click aqui e entre na nossa pagina do Instagram"><img src="/images/icons/insta.png" alt="Icone do instagran" /></a>
+                                <a href="" title="click aqui e entre no whatsapp"><img src="/images/icons/whats.png" alt="incone do whatsapp" /></a>                          
                             </ContainerIcons>
                         </ContainerMobile>
                     </WrapperFooter>

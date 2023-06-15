@@ -30,9 +30,10 @@ export default class MyDocument extends Document {
 
   render() {
     return (
-      <Html style={{scrollBehavior:'smooth'}}>
+      <Html lang='pt-br' style={{scrollBehavior:'smooth'}}>
         <Head>
-        <meta></meta>
+        <title>Agafarma</title>
+        <meta name="description" content="Agafarma - Sua farmácia de confiança para atender às suas necessidades de saúde e bem-estar. Oferecemos uma ampla variedade de medicamentos, produtos de cuidados pessoais e serviços farmacêuticos de qualidade. Nossa equipe dedicada de profissionais farmacêuticos está pronta para fornecer orientação especializada e atendimento personalizado. Conte com a Agafarma para encontrar tudo o que você precisa para cuidar da sua saúde e da sua família. Visite-nos hoje mesmo e experimente o atendimento excepcional que nos tornou uma referência na comunidade." />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"/>
