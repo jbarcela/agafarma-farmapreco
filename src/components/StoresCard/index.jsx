@@ -25,7 +25,7 @@ export default function StoresCard({ Title, Phone, WhatsApp, nameImage, Adress, 
               <span style={{ "color": "#444444", "fontSize": "14px", "fontFamily": "Open Sans" }}>Telefone: <a style={{ "color": "#0165CF" }} href={`tel:${PhoneNumHref}`}>{Phone}</a></span>
               <span style={{ "color": "#444444", "fontSize": "14px", "fontFamily": "Open Sans" }}>WhatsApp: <a href={`https://api.whatsapp.com/send?phone=${WhatsAppNumHref}`} style={{ "color": "#0165CF" }}>{WhatsApp}</a></span>
               <LinkImageWhatsIcon href={`https://api.whatsapp.com/send?phone=${WhatsAppNumHref}`}>
-                <ImageWhatsIcon src="images/icons/whatsAppCard.png" />
+                <ImageWhatsIcon src="/images/icons/whatsAppCard.png" />
               </LinkImageWhatsIcon>
             </ContainerContactCard>
           </ContainerCardInfo>

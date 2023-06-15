@@ -12,7 +12,7 @@ export default function Header(){
             </HeaderPrimaryStyled>
             <HeaderSecondary>
                   <a href="/">
-                    <ImageStyled style={{"cursor":"pointer"}} src="images/logo.png"/>
+                    <ImageStyled style={{"cursor":"pointer"}} src="/images/logo.png"/>
                   </a>
                 <nav>
                     <UlStyled>
@@ -30,17 +30,17 @@ export default function Header(){
                         </LiStyled>
                         <LiStyled>
                           <Linkstyled href="">
-                            <img src="images/icons/facebook.png" alt="" />{' '}
+                            <img src="/images/icons/facebook.png" alt="" />{' '}
                           </Linkstyled>
                         </LiStyled>
                         <LiStyled>
                           <Linkstyled href="">
-                            <img src="images/icons/insta.png" alt="" />
+                            <img src="/images/icons/insta.png" alt="" />
                           </Linkstyled>
                         </LiStyled>
                         <LiStyled>
                           <Linkstyled href="">
-                            <img src="images/icons/whats.png" alt="" />
+                            <img src="/images/icons/whats.png" alt="" />
                           </Linkstyled>
                         </LiStyled>
                       </UlStyled>

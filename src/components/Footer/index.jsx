@@ -7,12 +7,12 @@ export default function Footer({children}){
             <ContainerFooter>
                     <WrapperFooter>
                         <WrapperRow>
-                            <LogoFooter src="images/LogoFooter.png" alt="" />
+                            <LogoFooter src="/images/LogoFooter.png" alt="" />
                             <AvaliationLink>NOS AVALIE AQUI!</AvaliationLink>
                             <ContainerIcons >
-                                <a href=""><img src="images/icons/facebook.png" alt="" /></a>
-                                <a href=""><img src="images/icons/insta.png" alt="" /></a>
-                                <a href=""><img src="images/icons/whats.png" alt="" /></a>                          
+                                <a href=""><img src="/images/icons/facebook.png" alt="" /></a>
+                                <a href=""><img src="/images/icons/insta.png" alt="" /></a>
+                                <a href=""><img src="/images/icons/whats.png" alt="" /></a>                          
                             </ContainerIcons>
                         </WrapperRow>
                         <ContainerContacts>
@@ -24,9 +24,9 @@ export default function Footer({children}){
                         <ContainerMobile>
                             <AvaliationLink style={{display:'flex'}}>NOS AVALIE AQUI!</AvaliationLink>
                             <ContainerIcons style={{display:'flex'}} >
-                                <a href=""><img src="images/icons/facebook.png" alt="" /></a>
-                                <a href=""><img src="images/icons/insta.png" alt="" /></a>
-                                <a href=""><img src="images/icons/whats.png" alt="" /></a>                          
+                                <a href=""><img src="/images/icons/facebook.png" alt="" /></a>
+                                <a href=""><img src="/images/icons/insta.png" alt="" /></a>
+                                <a href=""><img src="/images/icons/whats.png" alt="" /></a>                          
                             </ContainerIcons>
                         </ContainerMobile>
                     </WrapperFooter>
