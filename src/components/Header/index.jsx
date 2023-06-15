@@ -75,9 +75,7 @@ export default function Header({children}){
                     ) : (
                       <UlStyled>
                         <LiStyled>
-                          <Link href="/">
-                            <Linkstyled>INÍCIO</Linkstyled>
-                          </Link>
+                          <Linkstyled href="#hero">INICIO</Linkstyled>
                         </LiStyled>
                         <LiStyled>
                           <Linkstyled href="#lojas">LOJAS</Linkstyled>
