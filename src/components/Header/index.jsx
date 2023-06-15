@@ -4,13 +4,13 @@ import { useRouter } from 'next/router';
 import { CointanerLinks,EmailHeader, HeaderPrimaryStyled, HeaderSecondary, ImageStyled, LiStyled, SeparatorStyled, UlStyled, Linkstyled, ContainerHeader } from "./styles";
 
 export default function Header({children}){
-  const router = useRouter();
-  const [urlAtual, setUrlAtual] = useState('');
+  // const router = useRouter();
+  // const [urlAtual, setUrlAtual] = useState('');
   
 
-  useEffect(() => {
-    setUrlAtual(router.asPath);
-  }, [router.asPath]);
+  // useEffect(() => {
+  //   setUrlAtual(router.asPath);
+  // }, [router.asPath]);
     return(
         <ContainerHeader style={{"position":"sticky","top":"0","zIndex":"9999"}}>
             <HeaderPrimaryStyled>
@@ -22,18 +22,18 @@ export default function Header({children}){
                 </CointanerLinks>
             </HeaderPrimaryStyled>
             <HeaderSecondary>
-                {urlAtual =="/about/" ? (
+                {/* {urlAtual =="/about/" ? (
                   <Link href="/">
                     <ImageStyled style={{"cursor":"pointer"}} src="images/logo.png"/>
                   </Link>
 
-                ) : (
+                ) : ( */}
                   <Link href="/">
                     <ImageStyled style={{"cursor":"pointer"}} src="images/logo.png"/>
                   </Link>
-                )}
+                {/* )} */}
                 <nav>
-                    {urlAtual == "/about/" ? (
+                    {/* {urlAtual == "/about/" ? (
                       <UlStyled>
                       <LiStyled>
                         <Link href="/">
@@ -104,7 +104,38 @@ export default function Header({children}){
                           </Linkstyled>
                         </LiStyled>
                       </UlStyled>
-                    )}
+                    )} */}
+                    <UlStyled>
+                        <LiStyled>
+                          <Linkstyled href="#hero">INICIO</Linkstyled>
+                        </LiStyled>
+                        <LiStyled>
+                          <Linkstyled href="#lojas">LOJAS</Linkstyled>
+                        </LiStyled>
+                        <LiStyled>
+                          <Linkstyled href="#contact">CONTATO</Linkstyled>
+                        </LiStyled>
+                        <LiStyled>
+                          <Link href="/about">
+                            <Linkstyled>SOBRE</Linkstyled>
+                          </Link>
+                        </LiStyled>
+                        <LiStyled>
+                          <Linkstyled href="">
+                            <img src="images/icons/facebook.png" alt="" />{' '}
+                          </Linkstyled>
+                        </LiStyled>
+                        <LiStyled>
+                          <Linkstyled href="">
+                            <img src="images/icons/insta.png" alt="" />
+                          </Linkstyled>
+                        </LiStyled>
+                        <LiStyled>
+                          <Linkstyled href="">
+                            <img src="images/icons/whats.png" alt="" />
+                          </Linkstyled>
+                        </LiStyled>
+                      </UlStyled>
                 </nav>
             </HeaderSecondary>
             
