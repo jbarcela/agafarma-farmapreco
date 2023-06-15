@@ -46,7 +46,6 @@ table {
 }
 a{
     text-decoration: none;
-    color: #FFFFFF;
 }
 *{
     font-family: 'Open Sans';

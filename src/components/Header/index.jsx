@@ -6,9 +6,9 @@ export default function Header(){
             <div className={styles.headerPrimaryStyled}>
                 <a href="mailto:atendimento@agafarma.com.br" target="_blank" className={styles.emailHeader}> atendimento@agafarmavivamed.com.br</a>
                 <div className={styles.cointanerLinks}>
-                        <a href="https://www.agafarma.com.br/Site/Encarte" target="_blank">Encarte Online</a>
+                        <a href="https://www.agafarma.com.br/Site/Encarte" target="_blank" className={styles.emailHeader}>Encarte Online</a>
                             <div className={styles.separator}/>
-                        <a href="https://agafarma.com.br/CartaoAgafarma/Cartao-de-Credito-Agafarma" target="_blank">Cartão Pessoa Física</a>
+                        <a href="https://agafarma.com.br/CartaoAgafarma/Cartao-de-Credito-Agafarma" target="_blank" className={styles.emailHeader}>Cartão Pessoa Física</a>
                 </div>
             </div>
 

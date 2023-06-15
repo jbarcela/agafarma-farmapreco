@@ -17,6 +17,7 @@
 }
 .emailHeader{
     margin-left: 18px;
+    color:#fff;
     @media (max-width: 668px) {
         display: none;
     }
