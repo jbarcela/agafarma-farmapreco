@@ -28,9 +28,9 @@ export default function Header(){
                   </Link>
 
                 ) : ( */}
-                  <Link href="/">
+                  <a href="/">
                     <ImageStyled style={{"cursor":"pointer"}} src="images/logo.png"/>
-                  </Link>
+                  </a>
                 {/* )} */}
                 <nav>
                     {/* {urlAtual == "/about/" ? (
