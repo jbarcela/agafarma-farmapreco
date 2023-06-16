@@ -17,7 +17,7 @@ export default function StoresCard({ Title, Phone, WhatsApp, nameImage, Adress, 
       {!exibirMapa ? (
         <ContainerCard> 
           <ButtonMap onClick={exibirNoMapa}>Ver no Mapa</ButtonMap>
-          <ContainerImage src={`images/${hrefImage}`} />
+          <ContainerImage title='Imagem da loja agafarma' src={`images/${hrefImage}`} />
           <ContainerCardInfo>
             <TitleCard>{Title}</TitleCard>
             <ContainerContactCard>
