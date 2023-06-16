@@ -8,7 +8,7 @@ export default function Footer({children}){
                     <WrapperFooter>
                         <WrapperRow>
                             <LogoFooter src="/images/LogoFooter.png" alt="Logo Agafarma" />
-                            <AvaliationLink title="Click aqui e nos avalie">NOS AVALIE AQUI!</AvaliationLink>
+                            <AvaliationLink href="https://api.whatsapp.com/send?phone=51996098394" title="Click aqui e nos avalie">NOS AVALIE AQUI!</AvaliationLink>
                             <ContainerIcons >
                                 <a href="https://www.facebook.com/dionatan.silva.5667/" title="click aqui e entre na nossa pagina do facebook"><img src="/images/icons/facebook.png" alt="Icone do facebook" /></a>
                                 <a href="https://www.instagram.com/dionatann.s/" title="click aqui e entre na nossa pagina do Instagram"><img src="/images/icons/insta.png" alt="Icone do instagran" /></a>

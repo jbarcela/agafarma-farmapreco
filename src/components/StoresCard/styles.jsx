@@ -29,7 +29,7 @@ export const ContainerCard = styled.div`
         width: 350px;
     }
 ` 
-export const ButtonMap = styled.a`
+export const ButtonMap = styled.button`
     position: absolute;
     width: 100px;
     height: 30px;

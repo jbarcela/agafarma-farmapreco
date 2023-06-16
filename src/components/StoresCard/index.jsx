@@ -21,7 +21,7 @@ export default function StoresCard({ Title, Phone, WhatsApp, nameImage, Adress, 
           <ContainerCardInfo>
             <TitleCard>{Title}</TitleCard>
             <ContainerContactCard>
-              <AdressCard title='click aqui para ir para o nosso endereço'>{Adress}</AdressCard>
+              <AdressCard href="https://goo.gl/maps/uuz1UDaWPA4zrhnY9" title='click aqui para ir para o nosso endereço'>{Adress}</AdressCard>
               <span style={{ "color": "#444444", "fontSize": "14px", "fontFamily": "Open Sans" }}>Telefone: <a title='click aqui e nos ligue' style={{ "color": "#0165CF" }} href={`tel:${PhoneNumHref}`}>{Phone}</a></span>
               <span style={{ "color": "#444444", "fontSize": "14px", "fontFamily": "Open Sans" }}>WhatsApp: <a title='click aqui e fale com nós no whatsapp' href={`https://api.whatsapp.com/send?phone=${WhatsAppNumHref}`} style={{ "color": "#0165CF" }}>{WhatsApp}</a></span>
               <LinkImageWhatsIcon title='click aqui para entrar no whatsapp' href={`https://api.whatsapp.com/send?phone=${WhatsAppNumHref}`}>
