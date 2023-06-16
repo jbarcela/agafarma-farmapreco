@@ -42,7 +42,7 @@ export const ButtonMap = styled.a`
     justify-content: center;
     border: none;
     border-radius: 12px;
-    color: #CED4DA;
+    color: #fff;
     cursor: pointer;
     font-family: 'Roboto';
     font-size: 12px;

@@ -49,7 +49,7 @@ export default function Contact({ children }) {
         <input type="hidden" name="_captcha" value="false" />
         <input type="hidden" name="_autoresponse" value="Seu email foi recebido com sucesso em nossa caixa de email, vamos analizar e retornaremos."></input>
         <input type="hidden" name="_next" value="https://agafarma-next-styled.vercel.app/" />
-        <ButtonForm type="submit">Enviar</ButtonForm>
+        <ButtonForm title='click aqui apra enviar o email' type="submit">Enviar</ButtonForm>
       </FormContact>
     </ContainerContact>
   );
