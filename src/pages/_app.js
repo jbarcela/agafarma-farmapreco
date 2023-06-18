@@ -1,4 +1,4 @@
-import "../styles/global.css";
+import "../globalCss/global.css";
 import Layout from "../components/Layout.js/Layout";
 import Head from "next/head";
 
