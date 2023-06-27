@@ -60,4 +60,7 @@
     @media (max-width: 1080px){
         width: 400px;
     }
+    @media (max-width: 520px){
+        width: 350px;
+    }
 }
