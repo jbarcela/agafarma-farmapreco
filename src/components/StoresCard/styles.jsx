@@ -46,6 +46,9 @@ export const ButtonMap = styled.button`
     cursor: pointer;
     font-family: 'Roboto';
     font-size: 12px;
+    &:hover{
+        opacity: 0.9;
+    }
 
 `
 

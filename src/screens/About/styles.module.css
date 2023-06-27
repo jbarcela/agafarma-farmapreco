@@ -1,0 +1,45 @@
+.containerColor{
+    padding-top: 50px;
+    width: 100%;
+    background-color: #00428A;
+    font-size: 30px;
+    -family: Roboto;
+    padding-bottom: 50px;
+}
+.containerIncolor{
+    padding-top: 50px;
+    width: 100%;
+    background-color: #FFF;
+    font-size: 30px;
+    -family: Roboto;
+    padding-bottom: 50px;
+}
+.titleAbout{
+    color: #FFCD00;
+    text-align: center;
+    font-size: 46px;
+    font-family: Roboto;
+    font-weight: 500;
+}
+.contentAbout{
+    margin-top: 50px;
+    padding-inline: 30px;
+    margin-inline: auto;
+    display: flex;
+    max-width: 1366px;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+.textContent{
+    color: #FFF;
+    text-align: justify;
+    font-size: 30px;
+    font-family: Roboto;
+    line-height: 50px;
+}
+.imgContent{
+    width: 600px;
+    height: auto;
+    border-radius: 10px;
+}

@@ -98,6 +98,9 @@ export const ButtonForm = styled.button`
     font-weight: 700;
     font-size: 18px;
     cursor: pointer;
+    &:hover{
+        opacity: 0.9;
+    }
 `
 export const TextAreaStyled = styled.textarea`
     height: 110px;

@@ -41,6 +41,9 @@ export const ButtonHeroStyled = styled.a`
     font-size: 18px;
     font-weight: bold;
     color: #000;
+    &:hover{
+        opacity: 0.8;
+    }
     @media (max-width: 1520px) {
         width: 140px;
         height: 60px;
