@@ -33,8 +33,8 @@ export default function Header() {
                         <li className={styles.navUlLi}><a title='Click aqui para ir para lojas' href={isSobreClicked ? '/#stores' : '/#stores'} className={styles.link} onClick={handleNavItemClick}>LOJAS</a></li>
                         <li className={styles.navUlLi}><a title='Click aqui para ir para contato' href={isSobreClicked ? '/#contact' : '/#contact'} className={styles.link} onClick={handleNavItemClick}>CONTATO</a></li>
                         <li className={styles.navUlLi}><a title='Click aqui para ir para sobre' href={isSobreClicked ? '/about' : '/about'} className={styles.link} onClick={handleSobreClick}>SOBRE</a></li>
-                        <li className={styles.navUlLi}><a title='Click aqui para ir para o facebook' target='_blank' href="https://www.facebook.com/dionatan.silva.5667/" className={styles.link}><img src="/images/icons/facebook.png" alt="Icone do facebook" /></a></li>
-                        <li className={styles.navUlLi}><a title='Click aqui para ir para o instagram' target='_blank' href="https://www.instagram.com/dionatann.s/" className={styles.link}><img src="/images/icons/insta.png" alt="Icone do instagram" /></a></li>
+                        <li className={styles.navUlLi}><a title='Click aqui para ir para o facebook' target='_blank' href="https://www.facebook.com/" className={styles.link}><img src="/images/icons/facebook.png" alt="Icone do facebook" /></a></li>
+                        <li className={styles.navUlLi}><a title='Click aqui para ir para o instagram' target='_blank' href="https://www.instagram.com/" className={styles.link}><img src="/images/icons/insta.png" alt="Icone do instagram" /></a></li>
                         <li className={styles.navUlLi}><a title='Click aqui para ir para o whatsapp' target='_blank' href="https://api.whatsapp.com/send?phone=5551980158168" className={styles.link}><img src="/images/icons/whats.png" alt="Icone do whatsapp" /></a></li>
                     </ul>
                 </nav>
