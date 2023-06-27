@@ -20,6 +20,7 @@
     font-size: 46px;
     font-family: Roboto;
     font-weight: 500;
+    padding-inline: 30px;
 }
 .contentAbout{
     margin-top: 50px;
@@ -30,6 +31,12 @@
     gap: 50px;
     justify-content: space-between;
     align-items: center;
+    @media (max-width: 840px){
+        gap: 25px;
+    }
+    @media (max-width: 680px) {
+        flex-direction: column;
+    }
 }
 .textContent{
     color: #FFF;
@@ -37,9 +44,20 @@
     font-size: 30px;
     font-family: Roboto;
     line-height: 50px;
+    @media (max-width: 1280px){
+        font-size: 18px;
+        line-height: 35px;
+    }
+    @media (max-width: 1080px){
+        font-size: 16px;
+        line-height: 25px;
+    }
 }
 .imgContent{
     width: 600px;
     height: auto;
     border-radius: 10px;
+    @media (max-width: 1080px){
+        width: 400px;
+    }
 }

@@ -2,6 +2,7 @@ import styled from "styled-components"
 import { IMaskInput } from "react-imask"
 
 export const ContainerContact = styled.div`
+    padding-bottom: 35px;
     margin-inline: auto;
     display: flex;
     flex-direction: column;
