@@ -32,7 +32,7 @@ export default function Footer({children}){
                     </WrapperFooter>
             </ContainerFooter>
             <ContainerFooterSecondary>
-               <TextFooter>© Copyright <span style={{"fontWeight":"700","fontSize":"16px","color":"#EEEEEE"}}>Agafarma.</span> Todos os direitos reservados | * Nas compras a partir de R$ 30,00 | Desenvolvido por <a target='_blank' href="https://api.whatsapp.com/send?phone=5551996098394" target="_blank" style={{"color":"#FFD602", cursor:"pointer"}}>DsDesenvolvimento</a></TextFooter>
+               <TextFooter>© Copyright <span style={{"fontWeight":"700","fontSize":"16px","color":"#EEEEEE"}}>Agafarma.</span> Todos os direitos reservados | * Nas compras a partir de R$ 30,00 | Desenvolvido por <a target='_blank' href="https://api.whatsapp.com/send?phone=5551982237199" style={{"color":"#FFD602", cursor:"pointer"}}>Desenvolve Aí</a></TextFooter>
             </ContainerFooterSecondary>
         </>
     )
