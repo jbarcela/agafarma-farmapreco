@@ -1,11 +1,12 @@
 import StoresCard from "../StoresCard";
 import { ContainerCard } from "../StoresCard/styles";
+import styles from "../../globalCss/styles.module.css"
 import { ContainerStores, ContainerStoresInfo, ParagraphStyled, TitleStyled } from "./styles";
 
 export default function Stores({children}){
     return(
         <ContainerStores>
-            <a style={{display:"block",position:"relative", top:"-110px",visibility:"hidden"}} id="stores"></a>
+            <a  className={styles.anchor} id="stores"></a>
             <TitleStyled>Nossas lojas</TitleStyled>
             <ContainerStoresInfo>
                 <StoresCard 

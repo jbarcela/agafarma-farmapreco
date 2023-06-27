@@ -1,5 +1,6 @@
 import React from 'react';
 import IMaskInput  from 'react-imask';
+import styles from "../../globalCss/styles.module.css"
 import {
   ButtonForm,
   ContainerContact,
@@ -16,7 +17,7 @@ export default function Contact({ children }) {
   
   return (
     <ContainerContact>
-      <a style={{display:"block",position:"relative", top:"-110px",visibility:"hidden"}} id="contact"></a>
+      <a  className={styles.anchor} id="contact"></a>
       <TitleContact>Entre em contato</TitleContact>
       <FormContact action="https://formsubmit.co/dionatannsilvaa@gmail.com" method="POST">
         <InputForm style={{width:"auto"}} required type="text" name="Nome" placeholder="Seu nome" />
