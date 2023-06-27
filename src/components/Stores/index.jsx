@@ -4,7 +4,8 @@ import { ContainerStores, ContainerStoresInfo, ParagraphStyled, TitleStyled } fr
 
 export default function Stores({children}){
     return(
-        <ContainerStores id="stores">
+        <ContainerStores>
+            <a style={{display:"block",position:"relative", top:"-110px",visibility:"hidden"}} id="stores"></a>
             <TitleStyled>Nossas lojas</TitleStyled>
             <ContainerStoresInfo>
                 <StoresCard 

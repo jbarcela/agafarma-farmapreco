@@ -15,7 +15,8 @@ import {
 export default function Contact({ children }) {
   
   return (
-    <ContainerContact id="contact">
+    <ContainerContact>
+      <a style={{display:"block",position:"relative", top:"-110px",visibility:"hidden"}} id="contact"></a>
       <TitleContact>Entre em contato</TitleContact>
       <FormContact action="https://formsubmit.co/dionatannsilvaa@gmail.com" method="POST">
         <InputForm style={{width:"auto"}} required type="text" name="Nome" placeholder="Seu nome" />
