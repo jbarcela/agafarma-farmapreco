@@ -42,7 +42,7 @@ export default function Contact({ children }) {
         <SelectForm style={{ paddingLeft: '3px' }} name="Loja" defaultValue="Selecione">
           <option value="Selecione" hidden>Selecione a sua loja preferida...</option>
           <option value="Parada-47">Parada 47</option>
-          <option value="Parada-52">Parada 52</option>
+          <option value="Parada-51">Parada 51</option>
           <option value="Americanas">Americanas</option>
         </SelectForm>
         <TextAreaStyled required name="Mensagem" placeholder="Mensagem"></TextAreaStyled>

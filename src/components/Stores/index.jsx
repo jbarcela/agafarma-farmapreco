@@ -6,7 +6,6 @@ export default function Stores({children}){
     return(
         <ContainerStores id="stores">
             <TitleStyled>Nossas lojas</TitleStyled>
-            <ParagraphStyled>Selecione abaixo uma de nossas lojas em Charqueadas e São Jerônimo</ParagraphStyled>
             <ContainerStoresInfo>
                 <StoresCard 
                     hrefMap="https://goo.gl/maps/By4YMixpdT1dtSjK8" 
