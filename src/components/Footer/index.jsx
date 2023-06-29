@@ -22,7 +22,7 @@ export default function Footer({children}){
                         </ContainerContacts>
                         <Textinfo>Horário de funcionamento: 07:30 às 22:00</Textinfo>
                         <ContainerMobile>
-                            <AvaliationLink href="https://api.whatsapp.com/send?phone=51980158168" title="click aqui para nos avaliar" style={{display:'flex'}}>NOS AVALIE AQUI! teste</AvaliationLink>
+                            <AvaliationLink href="https://api.whatsapp.com/send?phone=51980158168" title="click aqui para nos avaliar" style={{display:'flex'}}>NOS AVALIE AQUI!</AvaliationLink>
                             <ContainerIcons style={{display:'flex'}} >
                                 <a target='_blank' href="https://www.facebook.com/" title="click aqui e entre na nossa pagina do facebook"><img src="/images/icons/facebook.png" alt="Icone do facebook" /></a>
                                 <a target='_blank' href="https://www.instagram.com/" title="click aqui e entre na nossa pagina do Instagram"><img src="/images/icons/insta.png" alt="Icone do instagran" /></a>
