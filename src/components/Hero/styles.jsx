@@ -14,7 +14,7 @@ export const ContainerButtons = styled.div`
   display: flex;
   gap: 30px;
   bottom: 6%;
-  right: 6%;
+  left: 3%;
   @media (max-width: 980px) {
     gap: 18px;
   }
@@ -25,7 +25,7 @@ export const ContainerButtons = styled.div`
     gap: 18px;
     width: 100%;
     justify-content: center;
-    right: 0;
+    left: 0;
   }
   @media (max-width: 420px) {
     gap: 12px;
@@ -73,6 +73,12 @@ export const ButtonHeroStyled = styled.a`
     font-size: 14px;
     gap: 5px;
     height: 30px;
+  }
+  @media (max-width: 420px) {
+    width: 105px;
+    font-size: 14px;
+    gap: 5px;
+    height: 25px;
   }
 `;
 export const ImageButton = styled.img`
