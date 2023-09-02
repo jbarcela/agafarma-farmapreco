@@ -42,10 +42,6 @@
   width: 100%;
   height: 80px;
   background-color: #ffcd00;
-  @media (max-width: 668px) {
-    flex-direction: column;
-    height: 115px;
-  }
 }
 .logoHeader {
   width: 200px;
@@ -53,7 +49,6 @@
   @media (max-width: 920px) {
     height: 180px;
     height: auto;
-    margin-top: 5px;
   }
 }
 .navUl {
@@ -69,10 +64,10 @@
   color: #004289;
   font-family: "Roboto";
   cursor: pointer;
-}
-.navUlLi + #icon {
   @media (max-width: 668px) {
-    display: none;
+    .navUlLi&:nth-last-child(-n + 3) {
+      display: none;
+    }
   }
 }
 .link {
@@ -80,5 +75,13 @@
   color: #004289;
   .link&:hover {
     opacity: 0.8;
+  }
+}
+
+@media screen and (max-width: 668px) {
+  .headerSecondary {
+    display: flex;
+    flex-direction: column;
+    height: 115px;
   }
 }
