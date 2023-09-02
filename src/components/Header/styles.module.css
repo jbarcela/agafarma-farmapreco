@@ -77,11 +77,30 @@
     opacity: 0.8;
   }
 }
+@media (max-width: 920px) {
+  .navUl {
+    gap: 20px;
+    font-size: 14px;
+  }
+}
 
 @media screen and (max-width: 668px) {
   .headerSecondary {
     display: flex;
     flex-direction: column;
     height: 115px;
+  }
+  .navUlLi:nth-last-child(-n + 3) {
+    display: none;
+  }
+  .cointanerLinks {
+    margin-left: 12px;
+  }
+  .emailHeader {
+    display: none;
+  }
+  .logoHeader {
+    height: 180px;
+    height: auto;
   }
 }
