@@ -100,7 +100,7 @@ export default function Header() {
               <a
                 title="Click aqui para ir para o facebook"
                 target="_blank"
-                href="https://www.facebook.com/"
+                href="https://www.facebook.com/profile.php?id=100063737311089&mibextid=avESrC"
                 className={styles.link}
               >
                 <img src="/images/icons/facebook.png" alt="Icone do facebook" />
@@ -110,7 +110,7 @@ export default function Header() {
               <a
                 title="Click aqui para ir para o instagram"
                 target="_blank"
-                href="https://www.instagram.com/"
+                href="https://www.instagram.com/agafarmaalvorada/?igshid=NzZlODBkYWE4Ng%3D%3D"
                 className={styles.link}
               >
                 <img src="/images/icons/insta.png" alt="Icone do instagram" />
@@ -120,7 +120,7 @@ export default function Header() {
               <a
                 title="Click aqui para ir para o whatsapp"
                 target="_blank"
-                href="https://api.whatsapp.com/send?phone=5551980158168"
+                href="https://api.whatsapp.com/send?phone=5134115000"
                 className={styles.link}
               >
                 <img src="/images/icons/whats.png" alt="Icone do whatsapp" />

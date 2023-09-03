@@ -16,6 +16,24 @@ import SuccessModal from "../SuccessModal";
 
 export default function Contact({ children }) {
   const [showSuccessModal, setShowSuccessModal] = useState(false);
+  const [selectedStore, setSelectedStore] = useState("Selecione");
+  const [formAction, setFormAction] = useState(
+    "https://formsubmit.co/aga141@agafarma.com.br"
+  );
+
+  const handleStoreChange = (e) => {
+    const selectedValue = e.target.value;
+
+    if (selectedValue === "Parada-47") {
+      setFormAction("https://formsubmit.co/aga141@agafarma.com.br");
+    } else if (selectedValue === "Parada-51") {
+      setFormAction("https://formsubmit.co/aga141@agafarma.com.br");
+    } else if (selectedValue === "Americanas") {
+      setFormAction("https://formsubmit.co/aga681@agafarma.com.br");
+    }
+
+    setSelectedStore(selectedValue);
+  };
   const handleSubmit = async (e) => {
     setShowSuccessModal(true);
   };
@@ -23,11 +41,7 @@ export default function Contact({ children }) {
     <ContainerContact>
       <a className={styles.anchor} id="contact"></a>
       <TitleContact>Entre em contato</TitleContact>
-      <FormContact
-        onSubmit={handleSubmit}
-        action="https://formsubmit.co/dionatannsilvaa@gmail.com"
-        method="POST"
-      >
+      <FormContact onSubmit={handleSubmit} action={formAction} method="POST">
         <InputForm
           style={{ width: "auto" }}
           required
@@ -66,7 +80,9 @@ export default function Contact({ children }) {
         <SelectForm
           style={{ paddingLeft: "3px" }}
           name="Loja"
-          defaultValue="Selecione"
+          defaultValue={selectedStore}
+          onChange={handleStoreChange}
+          required
         >
           <option value="Selecione" hidden>
             Selecione a sua loja preferida...
@@ -86,11 +102,11 @@ export default function Contact({ children }) {
           name="_autoresponse"
           value="Seu email foi recebido com sucesso em nossa caixa de email, vamos analizar e retornaremos."
         ></input>
-        <input
+        {/* <input
           type="hidden"
           name="_next"
           value="https://agafarma-next-styled.vercel.app/"
-        />
+        /> */}
         <ButtonForm title="click aqui apra enviar o email" type="submit">
           Enviar
         </ButtonForm>
