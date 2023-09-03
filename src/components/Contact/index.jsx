@@ -102,11 +102,11 @@ export default function Contact({ children }) {
           name="_autoresponse"
           value="Seu email foi recebido com sucesso em nossa caixa de email, vamos analizar e retornaremos."
         ></input>
-        {/* <input
+        <input
           type="hidden"
           name="_next"
           value="https://agafarma-next-styled.vercel.app/"
-        /> */}
+        />
         <ButtonForm title="click aqui apra enviar o email" type="submit">
           Enviar
         </ButtonForm>
