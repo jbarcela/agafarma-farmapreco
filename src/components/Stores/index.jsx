@@ -28,7 +28,7 @@ export default function Stores({ children }) {
         <StoresCard
           hrefMap="https://goo.gl/maps/yPiatj2e9Jqc5cAQ9"
           hreflinkMap="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3455.418013634361!2d-51.0712696!3d-29.9961514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951979aba127bd4d%3A0x53a983a433e858ff!2sAgafarma%2051!5e0!3m2!1spt-BR!2sbr!4v1687814895172!5m2!1spt-BR!2sbr"
-          hrefImage="agafarma.jpg"
+          hrefImage="parada51.webp"
           Title="Parada 51"
           Adress="Av. Pres. Getúlio Vargas, 2888 - Bela Vista, Alvorada - RS"
           Phone="(51) 3411-5000"
@@ -39,7 +39,7 @@ export default function Stores({ children }) {
         <StoresCard
           hrefMap="https://goo.gl/maps/1tH7cvD47aXbfqGt7"
           hreflinkMap="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3455.559884573749!2d-51.082916000000004!3d-29.992076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951975cd03a6cd6d%3A0x6ab423fe8ed1865a!2sAgafarma%20da%20Americana!5e0!3m2!1spt-BR!2sbr!4v1687814662003!5m2!1spt-BR!2sbr"
-          hrefImage="agafarma.jpg"
+          hrefImage="americana.webp"
           Title="Americana"
           Adress="R. Tibúrcio de Azevedo, 573 - Americana, Alvorada - RS"
           Phone="(51) 9 8015 8168"

@@ -28,7 +28,7 @@ export default function Contact({ children }) {
       setFormAction("https://formsubmit.co/aga141@agafarma.com.br");
     } else if (selectedValue === "Parada-51") {
       setFormAction("https://formsubmit.co/aga141@agafarma.com.br");
-    } else if (selectedValue === "Americanas") {
+    } else if (selectedValue === "Americana") {
       setFormAction("https://formsubmit.co/aga681@agafarma.com.br");
     }
 
@@ -89,7 +89,7 @@ export default function Contact({ children }) {
           </option>
           <option value="Parada-47">Parada 47</option>
           <option value="Parada-51">Parada 51</option>
-          <option value="Americanas">Americanas</option>
+          <option value="Americana">Americana</option>
         </SelectForm>
         <TextAreaStyled
           required
