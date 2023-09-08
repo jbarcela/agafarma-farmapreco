@@ -101,7 +101,7 @@ export default function Footer({ children }) {
                 fontFamily: "Open Sans",
               }}
             >
-              Parada 47: 07:30 às 22:30
+              Parada 47: 08:00 às 23:55
             </p>
             <p
               style={{
@@ -110,7 +110,7 @@ export default function Footer({ children }) {
                 fontFamily: "Open Sans",
               }}
             >
-              Parada 51: 07:30 às 22:30
+              Parada 51: 08:00 às 23:55
             </p>
             <p
               style={{
@@ -119,7 +119,7 @@ export default function Footer({ children }) {
                 fontFamily: "Open Sans",
               }}
             >
-              Americana: 07:30 às 22:30
+              Americana: 08:00 às 22:00
             </p>
           </ContainerContacts>
           <Textinfo>
