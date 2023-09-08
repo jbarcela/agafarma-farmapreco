@@ -60,7 +60,7 @@ export default function Footer({ children }) {
                 fontFamily: "Open Sans",
               }}
             >
-              Parada 47:{" "}
+              <b>Parada 47</b>:{" "}
               <a href="tel:5136581492" style={{ color: "#0165CF" }}>
                 (51) 3442-8610{" "}
               </a>
@@ -72,7 +72,7 @@ export default function Footer({ children }) {
                 fontFamily: "Open Sans",
               }}
             >
-              Parada 51:{" "}
+              <b>Parada 51</b>:{" "}
               <a href="tel:5134115000" style={{ color: "#0165CF" }}>
                 (51) 3411-5000
               </a>
@@ -84,7 +84,7 @@ export default function Footer({ children }) {
                 fontFamily: "Open Sans",
               }}
             >
-              Americana:{" "}
+              <b>Americana</b>:{" "}
               <a href="tel:5108001150120" style={{ color: "#0165CF" }}>
                 0800 115 0120
               </a>
@@ -101,7 +101,7 @@ export default function Footer({ children }) {
                 fontFamily: "Open Sans",
               }}
             >
-              Parada 47: 08:00 às 23:55
+              <b>Parada 47</b>: 08:00 às 23:55
             </p>
             <p
               style={{
@@ -110,7 +110,7 @@ export default function Footer({ children }) {
                 fontFamily: "Open Sans",
               }}
             >
-              Parada 51: 08:00 às 23:55
+              <b>Parada 51</b>: 08:00 às 23:55
             </p>
             <p
               style={{
@@ -119,7 +119,7 @@ export default function Footer({ children }) {
                 fontFamily: "Open Sans",
               }}
             >
-              Americana: 08:00 às 22:00
+              <b>Americana</b>: 08:00 às 22:00
             </p>
           </ContainerContacts>
           <Textinfo>
