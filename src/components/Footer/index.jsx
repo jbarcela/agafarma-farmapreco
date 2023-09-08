@@ -58,10 +58,14 @@ export default function Footer({ children }) {
                 color: "#444444",
                 fontSize: "14px",
                 fontFamily: "Open Sans",
+                fontWeight: "bold",
               }}
             >
-              <b>Parada 47</b>:{" "}
-              <a href="tel:5136581492" style={{ color: "#0165CF" }}>
+              Parada 47:{" "}
+              <a
+                href="tel:5136581492"
+                style={{ color: "#0165CF", fontWeight: "normal" }}
+              >
                 (51) 3442-8610{" "}
               </a>
             </span>
@@ -70,10 +74,14 @@ export default function Footer({ children }) {
                 color: "#444444",
                 fontSize: "14px",
                 fontFamily: "Open Sans",
+                fontWeight: "bold",
               }}
             >
-              <b>Parada 51</b>:{" "}
-              <a href="tel:5134115000" style={{ color: "#0165CF" }}>
+              Parada 51:{" "}
+              <a
+                href="tel:5134115000"
+                style={{ color: "#0165CF", fontWeight: "normal" }}
+              >
                 (51) 3411-5000
               </a>
             </span>
@@ -82,10 +90,14 @@ export default function Footer({ children }) {
                 color: "#444444",
                 fontSize: "14px",
                 fontFamily: "Open Sans",
+                fontWeight: "bold",
               }}
             >
-              <b>Americana</b>:{" "}
-              <a href="tel:5108001150120" style={{ color: "#0165CF" }}>
+              Americana:{" "}
+              <a
+                href="tel:5108001150120"
+                style={{ color: "#0165CF", fontWeight: "normal" }}
+              >
                 0800 115 0120
               </a>
               <p></p>
@@ -99,27 +111,33 @@ export default function Footer({ children }) {
                 color: "#444444",
                 fontSize: "14px",
                 fontFamily: "Open Sans",
+                fontWeight: "bold",
               }}
             >
-              <b>Parada 47</b>: 08:00 às 23:55
+              Parada 47:{" "}
+              <span style={{ fontWeight: "normal" }}>08:00 às 23:55</span>
             </p>
             <p
               style={{
                 color: "#444444",
                 fontSize: "14px",
                 fontFamily: "Open Sans",
+                fontWeight: "bold",
               }}
             >
-              <b>Parada 51</b>: 08:00 às 23:55
+              Parada 51:{" "}
+              <span style={{ fontWeight: "normal" }}>08:00 às 23:55</span>
             </p>
             <p
               style={{
                 color: "#444444",
                 fontSize: "14px",
                 fontFamily: "Open Sans",
+                fontWeight: "bold",
               }}
             >
-              <b>Americana</b>: 08:00 às 22:00
+              Americana:{" "}
+              <span style={{ fontWeight: "normal" }}>08:00 às 22:00</span>
             </p>
           </ContainerContacts>
           <Textinfo>
