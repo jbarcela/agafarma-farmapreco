@@ -23,7 +23,7 @@ export default function Footer({ children }) {
             <LogoFooter src="/images/LogoFooter.png" alt="Logo Agafarma" />
             <AvaliationLink
               target="_blank"
-              href="https://api.whatsapp.com/send?phone=5551980158168"
+              href="https://www.google.com/search?q=Agafarma+parada+47+em+Alvorada&oq=Agafarma+parada+47+em+Alvorada&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGDsyBggCEEUYPDIGCAMQRRg8MgYIBBBFGDzSAQcxMzVqMGo0qAIAsAIA&sourceid=chrome&ie=UTF-8#ip=1&lrd=0x951975c65fe22691:0x3fd15078222b6df4,1,,,,"
               title="Click aqui e nos avalie"
             >
               NOS AVALIE AQUI!
@@ -31,22 +31,22 @@ export default function Footer({ children }) {
             <ContainerIcons>
               <a
                 target="_blank"
-                href="https://www.facebook.com/"
-                title="click aqui e entre na nossa pagina do facebook"
+                href="https://www.facebook.com/profile.php?id=100063737311089&mibextid=avESrC"
+                title="Entre na nossa pagina do facebook"
               >
                 <img src="/images/icons/facebook.png" alt="Icone do facebook" />
               </a>
               <a
                 target="_blank"
-                href="https://www.instagram.com/"
-                title="click aqui e entre na nossa pagina do Instagram"
+                href="https://www.instagram.com/agafarmaalvorada/?igshid=NzZlODBkYWE4Ng%3D%3D"
+                title="Entre na nossa pagina do Instagram"
               >
                 <img src="/images/icons/insta.png" alt="Icone do instagran" />
               </a>
               <a
                 target="_blank"
-                href="https://api.whatsapp.com/send?phone=5551980158168"
-                title="click aqui e entre no whatsapp"
+                href="https://api.whatsapp.com/send?phone=5551996387616"
+                title="Entre no whatsapp"
               >
                 <img src="/images/icons/whats.png" alt="incone do whatsapp" />
               </a>
@@ -122,10 +122,13 @@ export default function Footer({ children }) {
               Americana: 07:30 às 22:30
             </p>
           </ContainerContacts>
+          <Textinfo>
+            Entregas terminam 30 minutos antes de fechar as lojas.
+          </Textinfo>
 
           <ContainerMobile>
             <AvaliationLink
-              href="https://api.whatsapp.com/send?phone=51980158168"
+              href="https://www.google.com/search?q=Agafarma+parada+47+em+Alvorada&oq=Agafarma+parada+47+em+Alvorada&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGDsyBggCEEUYPDIGCAMQRRg8MgYIBBBFGDzSAQcxMzVqMGo0qAIAsAIA&sourceid=chrome&ie=UTF-8#ip=1&lrd=0x951975c65fe22691:0x3fd15078222b6df4,1,,,,"
               title="click aqui para nos avaliar"
               style={{ display: "flex" }}
             >
@@ -134,22 +137,22 @@ export default function Footer({ children }) {
             <ContainerIcons style={{ display: "flex" }}>
               <a
                 target="_blank"
-                href="https://www.facebook.com/"
-                title="click aqui e entre na nossa pagina do facebook"
+                href="https://www.facebook.com/profile.php?id=100063737311089&mibextid=avESrC"
+                title="Entre na nossa pagina do facebook"
               >
                 <img src="/images/icons/facebook.png" alt="Icone do facebook" />
               </a>
               <a
                 target="_blank"
-                href="https://www.instagram.com/"
-                title="click aqui e entre na nossa pagina do Instagram"
+                href="https://www.instagram.com/agafarmaalvorada/?igshid=NzZlODBkYWE4Ng%3D%3D"
+                title="?Entre na nossa pagina do Instagram"
               >
                 <img src="/images/icons/insta.png" alt="Icone do instagran" />
               </a>
               <a
                 target="_blank"
-                href="https://api.whatsapp.com/send?phone=5551980158168"
-                title="click aqui e entre no whatsapp"
+                href="https://api.whatsapp.com/send?phone=5551996387616"
+                title="Entre no whatsapp"
               >
                 <img src="/images/icons/whats.png" alt="incone do whatsapp" />
               </a>
