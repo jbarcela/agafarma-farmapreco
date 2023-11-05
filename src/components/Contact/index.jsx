@@ -18,19 +18,19 @@ export default function Contact({ children }) {
   const [showSuccessModal, setShowSuccessModal] = useState(false);
   const [selectedStore, setSelectedStore] = useState("Selecione");
   const [formAction, setFormAction] = useState(
-    "https://formsubmit.co/aga141@agafarma.com.br"
+    "https://formsubmit.co/anderson@farmapreco.com.br"
   );
 
   const handleStoreChange = (e) => {
     const selectedValue = e.target.value;
 
-    if (selectedValue === "Parada-47") {
-      setFormAction("https://formsubmit.co/aga141@agafarma.com.br");
-    } else if (selectedValue === "Parada-51") {
-      setFormAction("https://formsubmit.co/aga141@agafarma.com.br");
-    } else if (selectedValue === "Americana") {
-      setFormAction("https://formsubmit.co/aga681@agafarma.com.br");
-    }
+    // if (selectedValue === "Parada-47") {
+    //   setFormAction("https://formsubmit.co/aga141@agafarma.com.br");
+    // } else if (selectedValue === "Parada-51") {
+    //   setFormAction("https://formsubmit.co/aga141@agafarma.com.br");
+    // } else if (selectedValue === "Americana") {
+    //   setFormAction("https://formsubmit.co/aga681@agafarma.com.br");
+    // }
 
     setSelectedStore(selectedValue);
   };

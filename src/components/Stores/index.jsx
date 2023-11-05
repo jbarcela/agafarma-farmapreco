@@ -17,7 +17,7 @@ export default function Stores({ children }) {
         <StoresCard
           hrefMap="https://goo.gl/maps/By4YMixpdT1dtSjK8"
           hreflinkMap="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3455.246665350064!2d-51.079031699999994!3d-30.0010729!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951975c65fe22691%3A0x3fd15078222b6df4!2sAgafarma%20parada%2047%20em%20Alvorada!5e0!3m2!1spt-BR!2sbr!4v1687814861336!5m2!1spt-BR!2sbr"
-          hrefImage="agafarma.webp"
+          hrefImage="parada47.webp"
           Title="Parada 47"
           Adress="Av. Pres. Getúlio Vargas, 1926 - Bela Vista, Alvorada - RS"
           Phone="(51) 3442-8610"
