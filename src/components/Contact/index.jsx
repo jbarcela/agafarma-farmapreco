@@ -36,6 +36,10 @@ export default function Contact({ children }) {
   };
   const handleSubmit = async (e) => {
     setShowSuccessModal(true);
+
+    setInterval(() => {
+        setShowSuccessModal(false);
+    }, 3000);
   };
   return (
     <ContainerContact>
