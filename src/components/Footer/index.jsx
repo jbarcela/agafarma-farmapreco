@@ -17,7 +17,7 @@ import {
 export default function Footer({ children }) {
   return (
     <>
-      <ContainerFooter>
+      <ContainerFooter id="contact">
         <WrapperFooter>
           <WrapperRow>
             <LogoFooter src="/images/LogoFooter.png" alt="Logo Agafarma" />

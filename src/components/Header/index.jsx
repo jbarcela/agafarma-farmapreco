@@ -15,15 +15,7 @@ export default function Header() {
   return (
     <div className={styles.containerHeader}>
       <div className={styles.headerPrimaryStyled}>
-        <a
-          title="Click aqui para nos enviar um email"
-          href="mailto:atendimento@agafarma.com.br"
-          target="_blank"
-          className={styles.emailHeader}
-        >
-          {" "}
-          atendimento@agafarmavivamed.com.br
-        </a>
+        <div></div>
         <div className={styles.cointanerLinks}>
           <a
             title="click aqui para fazer seu encarte Online"
