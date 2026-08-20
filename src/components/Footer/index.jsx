@@ -115,7 +115,7 @@ export default function Footer({ children }) {
               </a>
               <a
                 target="_blank"
-                href="https://api.whatsapp.com/send?phone=5551996387616"
+                href="https://api.whatsapp.com/send?phone=555134115000"
                 title="Entre no Whatsapp"
               >
                 <img src="/images/icons/whats.png" alt="incone do whatsapp" />
@@ -186,7 +186,7 @@ export default function Footer({ children }) {
               </a>
               <a
                 target="_blank"
-                href="https://api.whatsapp.com/send?phone=5551996387616"
+                href="https://api.whatsapp.com/send?phone=5551999590358"
                 title="Entre no whatsapp"
               >
                 <img src="/images/icons/whats.png" alt="incone do whatsapp" />

@@ -22,8 +22,6 @@ export default function StoresCard({
   hrefMap,
   hrefImage,
   hreflinkMap,
-  ourPhoneNumHref,
-  ourPhone,
 }) {
   const [exibirMapa, setExibirMapa] = useState(false);
 
@@ -77,17 +75,6 @@ export default function StoresCard({
                 >
                   {Phone}
                 </a>
-                {ourPhoneNumHref && (
-                  <>
-                    ,{" "}
-                    <a
-                      title={`Clique aqui para ligar para o ${ourPhoneNumHref}.`}
-                      href={`tel:${somenteDigitos(ourPhoneNumHref)}`}
-                    >
-                      {ourPhoneNumHref}
-                    </a>
-                  </>
-                )}
               </span>
               <span
                 style={{

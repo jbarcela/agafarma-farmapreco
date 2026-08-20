@@ -20,11 +20,10 @@ export default function Stores({ children }) {
           hrefImage="parada47.webp"
           Title="Alvorada - Parada 47"
           Adress="Av. Pres. Getúlio Vargas, 1926 - Bela Vista, Alvorada - RS"
-          Phone="(51) 3442-8610"
-          PhoneNumHref="5134428610"
+          Phone="(51) 3411-5000"
+          PhoneNumHref="5134115000"
           WhatsApp="(51) 9 9959-0358"
           WhatsAppNumHref="5551999590358"
-          ourPhoneNumHref="0800 051 2010"
         />
         <StoresCard
           hrefMap="https://goo.gl/maps/yPiatj2e9Jqc5cAQ9"
@@ -34,9 +33,8 @@ export default function Stores({ children }) {
           Adress="Av. Pres. Getúlio Vargas, 2888 - Bela Vista, Alvorada - RS"
           Phone="(51) 3411-5000"
           PhoneNumHref="5134115000"
-          WhatsApp="(51) 9 9638-7616"
-          WhatsAppNumHref="5551996387616"
-          ourPhoneNumHref="0800 115 0120"
+          WhatsApp="(51) 9 9959-0358"
+          WhatsAppNumHref="5551999590358"
         />
         <StoresCard
           hrefMap="https://goo.gl/maps/1tH7cvD47aXbfqGt7"
@@ -44,11 +42,10 @@ export default function Stores({ children }) {
           hrefImage="americana.webp"
           Title="Alvorada - Americana"
           Adress="R. Tibúrcio de Azevedo, 573 - Americana, Alvorada - RS"
-          Phone="(51) 9 8015 8168"
-          PhoneNumHref="51980158168"
-          ourPhoneNumHref="0800 115 0120"
-          WhatsApp="(51) 9 8015 8168"
-          WhatsAppNumHref="5551980158168"
+          Phone="(51) 3411-5000"
+          PhoneNumHref="5134115000"
+          WhatsApp="(51) 9 9959-0358"
+          WhatsAppNumHref="5551999590358"
         />
         <StoresCard
           hrefMap="https://www.google.com/maps/search/?api=1&query=Agafarma%20Leopoldina%20130"
