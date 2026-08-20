@@ -23,7 +23,7 @@ const horariosDasLojas = [
   {
     nome: "Alvorada - Parada 47",
     segundaASabado: "7:30 às 23:59",
-    domingosEFeriados: "9:00 às 20:00",
+    domingosEFeriados: "9:00 às 22:00",
   },
   {
     nome: "Alvorada - Parada 51",
