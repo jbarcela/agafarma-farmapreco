@@ -1,7 +1,6 @@
 import "../globalCss/global.css";
 import Layout from "../components/Layout.js/Layout";
 import Head from "next/head";
-import Script from "next/script";
 
 function MyApp({ Component, pageProps }) {
     return (        
@@ -15,22 +14,6 @@ function MyApp({ Component, pageProps }) {
                 <meta name="google" content="nositelinkssearchbox" key="sitelinks" />
                 <meta name="google" content="notranslate" key="notranslate" />
             </Head>
-
-            {/* Google tag (gtag.js) */}
-            <Script
-                src="https://www.googletagmanager.com/gtag/js?id=AW-520112958"
-                strategy="afterInteractive"
-            />
-            <Script id="google-gtag" strategy="afterInteractive">
-                {`
-                    window.dataLayer = window.dataLayer || [];
-                    function gtag(){dataLayer.push(arguments);}
-                    gtag('js', new Date());
-
-                    gtag('config', 'AW-520112958');
-                `}
-            </Script>
-
             <Component {...pageProps} />
         </Layout>       
     )
